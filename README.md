@@ -44,12 +44,15 @@ Gitはバージョン管理ツール、GithubはGitを使用したwebサービ�
 
 ※今回は分かりやすいようにGUIツール（Github Desktop）を使用した更新方法で説明します。
 
+---
+
 ### ①更新対象のリポジトリをクローンする
 
 ![](img/github_clone_01.png)
 
 ![](img/github_clone_02.png)
 
+---
 
 ### ②作業用のブランチを作る（専門用語でブランチを切るといいます）
 ※その時、どのブランチのデータをベースにするのか聞かれるので、作業ブランチの段階ではdevelopを選択する
@@ -58,9 +61,11 @@ Gitはバージョン管理ツール、GithubはGitを使用したwebサービ�
 
 ![](img/github_branch_02.png)
 
+---
 
 ### ③ファイルを修正する
 
+---
 
 ### ④Github Desktop上で変更したファイルがインデックスされるので、変更内容を記載して左下のコミットボタンを押下する。
 
@@ -68,16 +73,19 @@ Gitはバージョン管理ツール、GithubはGitを使用したwebサービ�
 
 ![](img/github_commit_01.png)
 
+---
 
 ### ⑤上のバーの「push origin」ボタンを押下してpushする
 
 ![](img/github_push_01.png)
 
+---
 
 ### ⑥githubに移動すると、pushした対象のブランチ名が表示されているので、「compare & pull request」を押下
 
 ![](img/github_push_02.png)
 
+---
 
 ### ⑦プルリクエストの画面に遷移するので、反映させるブランチを選択し、右下の「create  pull request」を押下。
 ※この時、ブランチ選択タブの横に「Able to merge」と表示されていたらプルリクエストができる状態。
@@ -86,10 +94,13 @@ Gitはバージョン管理ツール、GithubはGitを使用したwebサービ�
 
 ![](img/github_push_04.png)
 
+---
 
 ### ⑧「confirm merge」を押下すると、プルリクエストが送られ、サイト上に反映される
 
 ![](img/github_push_05.png)
 
+---
 
 ### ⑨テスト環境での確認がOKであれば、※の作業の繰り返し。テスト環境（develop）→本番環境（master）へプルリクエスト
+
