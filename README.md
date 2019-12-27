@@ -21,7 +21,7 @@ Gitはバージョン管理ツール、GithubはGitを使用したwebサービ�
 ## Gitの仕組み
 ![](img/capture_intro1_2_2.png)
 
-※サルでもわかるGit入門(http://www.backlog.jp/)から引用
+※サルでもわかるGit入門(http://www.backlog.jp/) から引用
 
 ## 最低限覚えておくべき用語
 
